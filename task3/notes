@@ -1,0 +1,37 @@
+customer have to =>
+-id
+-name 
+-balance
+-status
+
+function todo => {
+
+addCustomer            ==>done
+showAllCust            ==>done
+deposit                ==>done
+Withdrawal             ==>done
+delete customer        ==>done
+search customer        ==>done
+}
+condtion =>
+{
+Maximum deposit = 5000
+Maximum withdrawal = 10000
+ It is not possible to withdraw more than the balance
+
+ when status = false ====> Cannot withdraw or deposit   ==>done  }
+
+
+
+
+
+االتاسك كالتالي
+//اضافه عميل
+//ايداع رصيد
+سحب رصيد//
+مسح عميل//
+//لكل عميل رقم حساب و اسم و مبلغ رصيد و حاله
+الحد الاقصي للسحب ٥٠٠٠
+الحد الاقصي للايداع ١٠٠٠٠
+لا يمكن سحب اعلى من الرصيد
+لكل عميل حاله مفعل او غير مفعل اذا كان غير مفعل لا يمكنه السحب او الايداع

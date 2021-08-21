@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+<body  class='container my-3'>
+
+    <section id="showHideBtn">
+        <button class= "btn btn-primary">Show</button>
+    </section>    
+    <section class="border border-primary  my-3 p-3 rounded d-none "id = "addForm">
+        <form >
+            <div class=" mb-3" id="userName">
+                <input name="title" placeholder="Title" class="form-control">
+            </div>
+            <div class="mb-3" id ="address">
+                <input name="content" placeholder="Content" class="form-control">
+            </div>
+            <div class="mb-3" id="date">
+                <input name="date" placeholder="Date" type="date" class="form-control">
+            </div>
+            <div>
+                <input type="submit" value="Add Task" class="btn btn-primary">
+            </div>
+        </form>    
+    </section> 
+    <section id="content">
+        <div class="row"></div>
+    </section>
+
+    <script src="js/task.js"></script>
+    
+</body>
+</html>
